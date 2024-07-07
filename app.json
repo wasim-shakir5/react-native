@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "project",
-    "slug": "project",
+    "slug": "first-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,10 +18,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.wasim_shakir5.firstapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a0f4aa46-09b2-4668-955f-74edab39619b"
+      }
+    },
+    "owner": "wasim_shakir5"
   }
 }
