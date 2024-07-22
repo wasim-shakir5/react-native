@@ -1,11 +1,12 @@
 {
   "expo": {
     "name": "project",
+    "scheme": "myfirstapp",
     "slug": "first-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "dark",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -29,6 +30,9 @@
         "projectId": "a0f4aa46-09b2-4668-955f-74edab39619b"
       }
     },
-    "owner": "wasim_shakir5"
+    "owner": "wasim_shakir5",
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
